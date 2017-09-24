@@ -1,0 +1,64 @@
+DATABASE 
+
+SDLC
+
+Design
+DB Schema, ERD
+
+
+blog
+ek author ho-> register
+approved
+
+blog 
+multiple images
+title
+
+approval
+
+
+
+
+
+comments
+public
+name, email
+comments
+
+approval
+
+
+
+
+
+
+Quiz App
+multiple choice questions quiz
+
+Quiz detail
+PHP QUIZ
+details
+
+multiple questions
+4,10,200
+
+multiple options
+text
+radio
+checkbox
+
+Answers
+
+
+
+template
+
+blog frontend
+admin panel backend
+
+
+
+DB - 1
+OOP - 1
+AJAX & Jquery - 1
+MVC codeigniter - 2

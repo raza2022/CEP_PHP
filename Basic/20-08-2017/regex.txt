@@ -1,0 +1,141 @@
+Regular Expression
+
+validation 
+parsing -> Parser
+
+Google ABBO BOT -> crawler
+
+homepage HTML
+10 anchor tag
+href
+
+INDEX
+keywords
+
+
+age: sixteen
+name: 12Abdullah
+email: 
+cc
+client side -> JS, Jquery
+server side -> PHP
+
+
+100 -> 20
+
+
+a-zA-Z 0-9 $ ^ * + ? | \/ [] {} () .
+
+Pattern			string 
+ab*				 ab 		T
+				 abbb		T
+				 a 			T
+				 cap		T
+				 def 		F
+
+ab+				 ab 		T
+				 abbb		T
+				 a 			F
+				 cap		F
+				 def 		F
+				 tab 		T
+				 aaaabbbbccc T
+
+^a+b+
+				 ab 		T
+				 abbb		T
+				 a 			F
+				 cap		F
+				 def 		F
+				 tab 		F
+				 aaaabbbbccc T				 
+^a+b+c+$
+				 ab 		F
+				 abbb		F
+				 a 			F
+				 cap		F
+				 def 		F
+				 tab 		F
+				 aaaabbbbccc T	
+				 aaaabbbbcccd F	
+
+Range
+
+Fullname: Abdullah
+
+^[A-Za-z]+$		B 
+
+chinees 
+Ali
+
+Limit 
+
+^[A-Za-z]{2,100}
+^[A-Za-z]{2,}
+^[A-Za-z]{2}
+
+
+
+
+
+(do|you)nut 	donut 	T
+				younut  T
+
+(do|you)?nut 	donut 	T
+				younut  T
+				nut  	T
+
+(gmail|yahoo|hotmail)
+
+
+.+ \
+
+email
+
+[a-zA-Z0-9]{2,100}@[a-zA-Z0-9]{2,100}\.[a-zA-Z]{2,3}	
+
+abc@gmail.com
+
+^[a-z]+@meridomain\.com$
+
+
+
+DOB    dd-mm-yyyy
+	   10-10-1990 31-12-1990
+	   99-99-1990
+
+
+
+[0-9]{2}-[0-9]{2}-[0-9]{4}
+
+99-99-1990
+
+01-09
+10-19
+20-29
+30-31
+(0[1-9])|(1|2[0-9])|3(0|1)-
+
+31-02-
+
+2020 -> leap year 29
+
+Home work
+input:
+My name is Mubashir
+reverse: Mubashir is name my
+
+email: regex
+		username 
+			alphanumeric
+			_
+
+		@
+		domain
+
+		.co.uk
+		.pk
+		.com
+		.net
+		.org
+		.com.pk
